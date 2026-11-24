@@ -10,8 +10,8 @@ Settings were selected on the 2020–2022 validation years. Each model was then 
 |---|---:|---:|
 | **XGBoost** | **95.56** | **−0.57%** |
 | LSTM | 95.88 | −0.24% |
-| No change | 96.11 | Baseline |
 | Ridge regression | 96.84 | +0.75% |
+| No change | 96.11 | Baseline |
 
 XGBoost had the lowest final-test error in each year, with a small overall lead of **0.55 basis points** over no change. The no-change rule led on average during validation. On the final test, XGBoost predicted the direction correctly 54.29% of the time, compared with 54.48% for always predicting up. [Overall metrics](outputs/metrics_overall.csv) · [By stock](outputs/metrics_by_stock.csv) · [By year](outputs/metrics_by_year.csv)
 
