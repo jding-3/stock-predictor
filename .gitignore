@@ -1,0 +1,8 @@
+.DS_Store
+.vscode/
+.conda/
+.conda-pkgs/
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+*.[dD][oO][cC][xX]

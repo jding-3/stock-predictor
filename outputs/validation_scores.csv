@@ -1,0 +1,34 @@
+model,settings,target_year,mae_bps
+Ridge,{'alpha': 1},2020,183.118932422
+Ridge,{'alpha': 1},2021,105.192334142
+Ridge,{'alpha': 1},2022,140.68869795
+Ridge,{'alpha': 100},2020,182.815851004
+Ridge,{'alpha': 100},2021,105.189074688
+Ridge,{'alpha': 100},2022,140.604065661
+Ridge,{'alpha': 1000},2020,182.538770398
+Ridge,{'alpha': 1000},2021,105.001322959
+Ridge,{'alpha': 1000},2022,140.261269347
+XGBoost,"{'max_depth': 2, 'n_estimators': 100}",2020,182.889124404
+XGBoost,"{'max_depth': 2, 'n_estimators': 100}",2021,104.430292329
+XGBoost,"{'max_depth': 2, 'n_estimators': 100}",2022,138.095253597
+XGBoost,"{'max_depth': 2, 'n_estimators': 250}",2020,183.471909849
+XGBoost,"{'max_depth': 2, 'n_estimators': 250}",2021,104.522883069
+XGBoost,"{'max_depth': 2, 'n_estimators': 250}",2022,138.510936053
+XGBoost,"{'max_depth': 3, 'n_estimators': 100}",2020,183.228766402
+XGBoost,"{'max_depth': 3, 'n_estimators': 100}",2021,104.369503019
+XGBoost,"{'max_depth': 3, 'n_estimators': 100}",2022,138.293066246
+XGBoost,"{'max_depth': 3, 'n_estimators': 250}",2020,184.515496198
+XGBoost,"{'max_depth': 3, 'n_estimators': 250}",2021,104.524319028
+XGBoost,"{'max_depth': 3, 'n_estimators': 250}",2022,138.819609418
+LSTM,"{'hidden_size': 16, 'epochs': 8}",2020,181.800371073
+LSTM,"{'hidden_size': 16, 'epochs': 8}",2021,104.58863678
+LSTM,"{'hidden_size': 16, 'epochs': 8}",2022,138.878162493
+LSTM,"{'hidden_size': 16, 'epochs': 16}",2020,182.203208905
+LSTM,"{'hidden_size': 16, 'epochs': 16}",2021,104.497919912
+LSTM,"{'hidden_size': 16, 'epochs': 16}",2022,139.325971898
+LSTM,"{'hidden_size': 32, 'epochs': 16}",2020,184.547570678
+LSTM,"{'hidden_size': 32, 'epochs': 16}",2021,104.946624473
+LSTM,"{'hidden_size': 32, 'epochs': 16}",2022,139.628145934
+No change,{},2020,182.111227026
+No change,{},2021,104.566967246
+No change,{},2022,137.968465926

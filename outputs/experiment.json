@@ -1,0 +1,40 @@
+{
+  "snapshot": {
+    "source": "Yahoo Finance historical pages (embedded daily chart)",
+    "retrieved_at_utc": "2026-11-22T17:38:53.871729+00:00",
+    "sha256": "a63a521b12b2a91478f961e01b612570887f7705d43a7a62d17200c25ee9f910",
+    "first_bar": "2010-01-04",
+    "last_bar": "2025-12-31",
+    "rows": 20120
+  },
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.2",
+    "torch": "2.14.1",
+    "exchange-calendars": "4.8",
+    "matplotlib": "3.11.2"
+  },
+  "seed": 42,
+  "selected_settings": {
+    "Ridge": {
+      "alpha": 1000
+    },
+    "XGBoost": {
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "LSTM": {
+      "hidden_size": 16,
+      "epochs": 8
+    }
+  },
+  "majority_direction": 1,
+  "validation_years": [
+    2020,
+    2021,
+    2022
+  ],
+  "holdout_start_year": 2023
+}
